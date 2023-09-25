@@ -8,17 +8,17 @@
  */
 int _strcmp(const char *str1, char *str2)
 {
-	size_t i = 0;
+	size_t n = 0;
 
 	if (str1 == NULL)
 		return (0);
-	while (str1[i])
+	while (str1[n])
 	{
-		if (str1[i] != str2[i])
+		if (str1[n] != str2[n])
 			return (0);
 		i++;
 	}
-	if (str1[i] == '\0' && str2[i])
+	if (str1[n] == '\0' && str2[n])
 		return (0);
 	return (1);
 }
