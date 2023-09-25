@@ -2,16 +2,16 @@
 /**
 *swap - the positions of two elements into an array
 *@array: array
-*@item1: array element
-*@item2: array element
+*@item01: array element
+*@item02: array element
 */
-void swap(int *array, ssize_t item1, ssize_t item2)
+void swap(int *array, ssize_t item01, ssize_t item02)
 {
 	int tmp;
 
-	tmp = array[item1];
-	array[item1] = array[item2];
-	array[item2] = tmp;
+	tmp = array[item01];
+	array[item01] = array[item02];
+	array[item02] = tmp;
 }
 /**
  *lomuto_partition - lomuto partition sorting scheme implementation
