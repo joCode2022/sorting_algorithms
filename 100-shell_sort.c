@@ -3,17 +3,17 @@
 /**
 *swap - the positions of two elements into an array
 *@array: array
-*@item1: array element
-*@item2: array element
+*@item_01: array element
+*@item_02: array element
 */
-void swap(int *array, int item1, int item2)
+void swap(int *array, int item_01, int item_02)
 {
 
 	int tmp;
 
-	tmp = array[item1];
-	array[item1] = array[item2];
-	array[item2] = tmp;
+	tmp = array[item_01];
+	array[item_01] = array[item_02];
+	array[item_02] = tmp;
 }
 /**
  * shell_sort - function that sorts an array of integers in ascending
